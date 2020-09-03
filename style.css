@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #e74c3c;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color {
+  margin-top: 20%;
+  text-align: center;
+}
+
+#hex {
+  display: block;
+  color: white;
+  text-transform: uppercase;
+  font-size: xxx-large;
+  margin: 1%;
+}
+
+.color button {
+  background: none;
+  outline: none;
+  border: 3px solid white;
+  cursor: pointer;
+  font-size: larger;
+  border-radius: 5px;
+  color: white;
+}
+
+button:hover {
+  color: black;
+}
